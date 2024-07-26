@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+}
+
+#anchor {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #181818;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left i {
+  margin-right: 10px;
+}
+
+.header-right i {
+  margin-left: 10px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #282828;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  border-bottom: 1px solid #383838;
+  cursor: pointer;
+}
+
+.sidebar li i {
+  margin-right: 10px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.user-profile {
+  margin-right: 20px;
+}
+
+.user-profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.user-info {
+  margin-right: 20px;
+}
+
+.user-info h3 {
+  margin-top: 0;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.user-actions {
+  display: flex;
+}
+
+.chat-button,
+.edit-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: calc(28.33% - 20px);
+  background-color: #282828;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 90%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.edit-button {
+  background-color: #2196F3;
+}

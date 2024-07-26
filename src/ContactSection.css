@@ -1,0 +1,106 @@
+.contactus {
+    padding-top: 11vh;
+    background: #181818;
+    color: white;
+    height: 90vh;
+}
+
+.contact-container {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#belowheader {
+    margin-inline: 20rem;
+    margin-top: -15px;
+    text-align: center;
+    /* text-align: center; */
+}
+
+#contact-left {
+    width: 48vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#addressbox {
+    display: flex;
+    gap: 1vw;
+
+}
+
+#addressicon {
+    display: flex;
+    background: #fffdfd;
+    color: black;
+    margin-top: 0vh;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+}
+
+#para1 {
+    color: rgb(124, 199, 224);
+}
+
+#para {
+    margin-top: 0px;
+    width: 150px;
+}
+
+.phoneblock {
+    display: flex;
+    gap: 1vw;
+    /* height: 15vh; */
+}
+
+.contact-main {
+    margin-top: 10vh;
+    display: flex;
+    height: 50vh;
+    margin-bottom: 1em;
+}
+
+.contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 48vw;
+    /* background: white; */
+}
+
+#form {
+    background: white;
+    color: black;
+    width: 30vw;
+
+    height: 100%;
+}
+
+#space-form {
+    margin: 2rem;
+}
+
+#forminside {
+    display: grid;
+    gap: 3vh;
+}
+
+#forminside>input,
+textarea {
+    height: 5vh;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#forminside>button {
+    background: rgb(54, 184, 228);
+    color: white;
+    width: 6vw;
+    height: 5vh;
+}
