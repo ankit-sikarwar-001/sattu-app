@@ -1,0 +1,58 @@
+#profilech {
+    display: flex;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2196F3;
+    margin: 2px;
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.user-profile {
+    margin-right: 20px;
+}
+
+.user-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-right: 20px;
+}
+
+.user-info h3 {
+    margin-top: 0;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.user-actions {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.chat-button,
+.edit-button1,
+.edit-button {
+    background-color: #ebe65e;
+    /* border: none; */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
