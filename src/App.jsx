@@ -13,27 +13,6 @@ import {faUser} from '@fortawesome/free-solid-svg-icons';
 import Profile from './Profile.jsx';
 
 function App() {
-  // const [isEditing, setIsEditing] = useState(false);
-  // const [userProfile, setUserProfile] = useState({
-  //   name: 'Ankit Singh',
-  //   university: 'Guru Jambheshwar University of Science & Technology',
-  //   course: 'CSE(A&MI)',
-  //   year: '3rd Year contact',
-  // });
-
-  // function changeval() {
-  //   setIsEditing(true);
-  // }
-
-  // function handleInputChange(event) {
-  //   const { name, value } = event.target;
-  //   setUserProfile({ ...userProfile, [name]: value });
-  // }
-
-  // function handleSave() {
-  //   setIsEditing(false);
-  // }
-
   return (
     <div>
       <div className="container">

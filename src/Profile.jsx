@@ -7,10 +7,11 @@ import {faPen} from '@fortawesome/free-solid-svg-icons';
 function Profile (){
 const [isEditing, setIsEditing] = useState(false);
   const [userProfile, setUserProfile] = useState({
+    img : '',
     name: 'Ankit Singh',
     university: 'Guru Jambheshwar University of Science & Technology',
-    course: 'CSE(A&MI)',
-    year: '3rd Year contact',
+    course: 'CSE',
+    year: '3rd Year ',
   });
 
   function changeval() {
@@ -31,7 +32,7 @@ const [isEditing, setIsEditing] = useState(false);
     <div className="user-card">
             <div id='profilech'>         
               <div className="user-profile">
-                <img src="https://via.placeholder.com/150" alt="Profile" />
+                <img src="src\assets\sattu.webp" alt="Profile" />
               </div>
               <div className="user-info">
                 {isEditing ? (
