@@ -2,6 +2,8 @@
 
 <h2>Developer :- Ankit Singh</h2>
 
+this app made for my friend internship project
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
